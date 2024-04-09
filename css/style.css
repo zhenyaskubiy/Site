@@ -1,0 +1,11 @@
+html{
+    box-sizing: border-box;
+}
+*{
+    box-sizing: inherit;
+}
+.conteiner{
+    background-color: rgb(221, 221, 221);
+    height: 40px;
+    border-radius: 25px;
+}
