@@ -2,14 +2,18 @@ body {
 	background-color: #EAEAEA;
 	font-family: sans-serif;
 	display: flex;
-  padding: 40px;
+    padding: 40px;
+    padding-top: 0px;
 	align-items: center;
 	justify-content: center;
 	flex-direction: column;
+    overflow-x: hidden;
 }
 
-h1 {
-	margin: 10px;
+h1{
+    margin: 0%;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-weight: 600;
 }
 
 .box {
@@ -24,6 +28,27 @@ h1 {
 	height: 295px;
 	transform: translateX(200%);
 	transition: transform 0.4s ease;
+}
+
+.par_event{
+    position: relative;
+}
+.event{
+    background-color: hsl(0, 19%, 51%);
+    border-radius: 10px;
+    border: solid rgb(117, 42, 179) 2px;
+    box-shadow: 0 0 2px 0.5px rgb(117, 42, 179), 0 0 2px 0.5px rgb(117, 42, 179);
+    filter: drop-shadow(0 0 10px rgb(117, 42, 179));
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    width: 210px;
+    height: 140px;
+    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    position: absolute;
+    margin-left: 350px;
+    top: -6300px;
 }
 
 .box:nth-of-type(even) {
@@ -47,6 +72,7 @@ h1 {
     overflow: hidden;
     margin-left: 13px;
     margin-top: 80px;
+    text-indent: 15px;
 }
 #art-ter img{
     height: 120px;
@@ -62,4 +88,8 @@ h1 {
     filter: drop-shadow(0 0 10px rgb(117, 42, 179));
 	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
     margin-left: 306px;
+}
+
+.more:hover{
+    transform: scale(0.9);
 }
