@@ -45,8 +45,18 @@ h1{
     flex-direction: column;
     justify-content: flex-end;
 }
+
+h2{
+    position: absolute;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    margin-left: 420px;
+    top: -6400px;
+    color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+
 .event{
-    background-color: hsl(281, 36%, 69%);
+    background-color: rgba(255, 255, 255, 0.15);
     border-radius: 10px;
     border: solid rgb(167, 60, 255) 2px;
     box-shadow: 0 0 2px 0.5px rgb(167, 60, 255), 0 0 2px 0.5px rgb(117, 42, 179);
@@ -58,7 +68,14 @@ h1{
     margin-left: 350px;
     top: -6300px;
 }
+/*ПОДІЯ ПЕРША*/
+#event1 img{
+    height: 140px;
+    width: 210px;
+    border-radius: 10px;
+}
 
+/*ПОДІЯ ПЕРША*/
 #event2{
     position: absolute;
     margin-left: 350px;

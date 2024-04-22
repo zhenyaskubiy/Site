@@ -5,7 +5,7 @@ html{
     box-sizing: border-box;
 }
 body{
-    background-image: url(../image/background-dark.jpg);
+    background-image: url(../image/news/bg.jpg);
     height: 1080px;
     align-self: center;
     background-repeat: no-repeat;
@@ -30,6 +30,7 @@ body{
     flex-shrink: 0;
     margin-right: 12px;
 }
+
 .conteiner_gmail_text{
     color: #5C5C5C;
     order: 3;
@@ -39,13 +40,13 @@ body{
     order: 4;
     flex-shrink: 0;
     margin-left: 12px;
-    margin-top: 2px;
+    margin-top: 3px;
 }
 .conteiner_inst{
     order: 5;
     flex-shrink: 0;
     margin-left: 12px;
-    margin-top: 2px;
+    margin-top: 3px;
 }
 
 .conteiner_gmail_text {
@@ -61,14 +62,20 @@ body{
     margin-top: 4px;
     position: relative;
 }
+.header_left img{
+    filter: drop-shadow(0 0 7px rgb(109, 39, 167));
+}
 .header_right{
     display: inline-flex;
     align-items: center;
 }
+.header_right img{
+    filter: drop-shadow(0 0 8px rgb(109, 39, 167));
+}
 .header_left a {
     position: absolute;
     padding-left: 10px; 
-    margin-bottom: 12px; 
+    margin-bottom: 40px; 
     margin-top: 3px;
     text-decoration: none; 
     color: #5C5C5C;
@@ -78,6 +85,8 @@ body{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     padding-top: 130px;
+    filter: drop-shadow(0 0 8px rgb(109, 39, 167));
+
 }
 .logo__conteiner{
     position: relative;
@@ -93,6 +102,7 @@ body{
     left: 50%;
     top: 100px;
     transform: translate(-50%, -50%); 
+    filter: drop-shadow(0 0 10px rgb(109, 39, 167));
 }
 .navigation{
     display: flex;
@@ -113,11 +123,20 @@ body{
 }
 button:hover{
     box-shadow: 1px 1px 20px rgb(117, 42, 179);
+    transform: scale(1.05);
+    color: rgb(117, 42, 179);
 }
 .navigation:hover > :not(:hover){
     opacity: 0.4;
 }
 
+#link_h{
+    filter: drop-shadow(0 0 10px rgb(109, 39, 167));
+}
+#link_h:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px rgb(39, 41, 167));
+}
 
 
 
