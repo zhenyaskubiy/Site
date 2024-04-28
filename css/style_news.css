@@ -28,7 +28,7 @@ header{
     justify-content: center;
     margin-top: 20px;
     margin-left: auto;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
 .news_header .navigation{
@@ -46,7 +46,7 @@ header{
     margin: 0 8px;
 }
 .news_header .btn_nav{
-    border-radius: 5px;
+    border-radius: 15px;
     border: none;
     font-family: 'Times New Roman', Times, serif;
     width: 200px;
@@ -60,7 +60,7 @@ header{
     transform: scale(1.05);
     color: rgb(117, 42, 179);
 }
-.news_header .navigation:hover > :not(:hover){
+.news_header .button-container:hover > :not(:hover){
     opacity: 0.4;
 }
 
@@ -72,6 +72,7 @@ h1{
     filter: drop-shadow(0 0 20px rgb(167, 60, 255));
     font-size: 40px;
 }
+
 
 .box {
     background-color: rgba(255, 255, 255, 0.199);
@@ -202,7 +203,7 @@ h2{
     margin-left: 15px;
 }
 #art-ter button{
-    border-radius: 5px ;
+    border-radius: 10px ;
     border: solid rgb(117, 42, 179) 2px;
     box-shadow: 0 0 2px 0.5px rgb(117, 42, 179), 0 0 2px 0.5px rgb(117, 42, 179);
     filter: drop-shadow(0 0 10px rgb(117, 42, 179));
@@ -210,14 +211,19 @@ h2{
     margin-left: 306px;
 }
 .more span{
+    color: rgb(0, 0, 0);
     font-weight: 700;
     font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.more{
+    background-color: rgb(255, 255, 255);
+    width: 80px;
 }
 .more:hover{
     transform: scale(1.05);
 }
 .more:hover span{
-    filter: drop-shadow(0 0 10px rgb(117, 42, 179));
+    filter: drop-shadow(0 0 5px rgb(117, 42, 179));
     color: rgb(117, 42, 179);
 }
 
@@ -244,3 +250,5 @@ h2{
     color: rgb(117, 42, 179);
     transform: scale(1.05);
 }
+
+
