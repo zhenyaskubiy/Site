@@ -1,6 +1,6 @@
 body {
     background-image: url(../image/news/bg.jpg);
-    height: 1080px;
+    height: 5000px;
     margin: 0px;
     align-self: center;
     background-size: cover;
@@ -84,9 +84,10 @@ hr {
 .s121{
     position: absolute;
     width: 750px;
-    height: 350px;
+    height: 360px;
     border-radius: 15px;
     background-color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -98,6 +99,392 @@ hr {
 }
 .s121 img{
     position: absolute;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
     width: 200px;
     height: 200px;
+    margin-left: -100px;
+    margin-top: 75px;
+}
+
+.s121_text{
+    margin-left: 130px;
+    margin-right: 50px;
+    text-indent: 15px;
+    font-size: 18px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+.s121_text h6{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.s121_text .pr{
+    text-indent: 15px;
+}
+
+
+
+/*КОМП ІНЖЕНЕРІЯ*/
+.s123{
+    position: absolute;
+    width: 750px;
+    height: 360px;
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    justify-content: center;
+    align-items: center;
+    top: 580px;
+}
+.s123 img{
+    position: absolute;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: 75px;
+}
+
+.s123_text{
+    margin-left: 130px;
+    margin-right: 50px;
+    text-indent: 15px;
+    font-size: 18px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+.s123_text h6{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.s123_text .pr{
+    text-indent: 15px;
+}
+
+
+/*ПІДПРИЄМНИЦТВО, ТОРГІВЛЯ ТА БІРЖОВА ДІЯЛЬНІСТЬ*/
+.s076{
+    position: absolute;
+    width: 750px;
+    height: 360px;
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    justify-content: center;
+    align-items: center;
+    top: 980px;
+}
+.s076 img{
+    position: absolute;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: 75px;
+}
+
+.s076_text{
+    margin-left: 130px;
+    margin-right: 50px;
+    text-indent: 15px;
+    font-size: 18px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+.s076_text h6{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.s076_text .pr{
+    text-indent: 15px;
+}
+
+/*МАРКЕТИНГ*/
+.s075{
+    position: absolute;
+    width: 750px;
+    height: 360px;
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    justify-content: center;
+    align-items: center;
+    top: 580px;
+}
+.s075 img{
+    position: absolute;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: 75px;
+}
+
+.s075_text{
+    margin-left: 130px;
+    margin-right: 50px;
+    text-indent: 15px;
+    font-size: 18px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+.s075_text h6{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.s075_text .pr{
+    text-indent: 15px;
+}
+
+/*ФІНАНСИ*/
+.s072{
+    position: absolute;
+    width: 750px;
+    height: 360px;
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    justify-content: center;
+    align-items: center;
+    top: 580px;
+}
+.s072 img{
+    position: absolute;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: 75px;
+}
+
+.s072_text{
+    margin-left: 130px;
+    margin-right: 50px;
+    text-indent: 15px;
+    font-size: 18px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+.s072_text h6{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.s072_text .pr{
+    text-indent: 15px;
+}
+
+/*ОБЛІК*/
+.s071{
+    position: absolute;
+    width: 750px;
+    height: 360px;
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    justify-content: center;
+    align-items: center;
+    top: 580px;
+}
+.s071 img{
+    position: absolute;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: 75px;
+}
+
+.s071_text{
+    margin-left: 130px;
+    margin-right: 50px;
+    text-indent: 15px;
+    font-size: 18px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+.s071_text h6{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.s071_text .pr{
+    text-indent: 15px;
+}
+
+/*ЕКОНОМІКА*/
+.s072{
+    position: absolute;
+    width: 750px;
+    height: 360px;
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    justify-content: center;
+    align-items: center;
+    top: 580px;
+}
+.s072 img{
+    position: absolute;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: 75px;
+}
+
+.s072_text{
+    margin-left: 130px;
+    margin-right: 50px;
+    text-indent: 15px;
+    font-size: 18px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+.s072_text h6{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.s072_text .pr{
+    text-indent: 15px;
+}
+
+/*ОБЛІК*/
+.s051{
+    position: absolute;
+    width: 750px;
+    height: 360px;
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    justify-content: center;
+    align-items: center;
+    top: 580px;
+}
+.s051 img{
+    position: absolute;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: 75px;
+}
+
+.s051_text{
+    margin-left: 130px;
+    margin-right: 50px;
+    text-indent: 15px;
+    font-size: 18px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+.s051_text h6{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.s051_text .pr{
+    text-indent: 15px;
+}
+
+
+/*ДИЗАЙН*/
+.s022{
+    position: absolute;
+    width: 750px;
+    height: 360px;
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    justify-content: center;
+    align-items: center;
+    top: 580px;
+}
+.s022 img{
+    position: absolute;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    margin-top: 75px;
+}
+
+.s022_text{
+    margin-left: 130px;
+    margin-right: 50px;
+    text-indent: 15px;
+    font-size: 18px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+.s022_text h6{
+    font-size: 20px;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.s022_text .pr{
+    text-indent: 15px;
 }
