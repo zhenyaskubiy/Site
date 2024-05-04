@@ -88,20 +88,101 @@ hr {
     filter: drop-shadow(0 0 20px rgb(167, 60, 255));
     margin-top: 10px;
 }
+.sp_cci h1{
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+}
 
-.sp_erasmus{
-    position: absolute;
-    width: 500px;
-    height: 350px;
-    border-radius: 15px;
-    background-color: #EAEAEA;
+.sp_cci .title_cci{
+    font-size: 40px;
+    height: 50px;
+    width: 100px;
+    background-color: #b679c2;
+    margin-top: 15px;
+    margin-left: 200px;
+    border-radius: 10px;
+    position: relative;
     filter: drop-shadow(0 0 20px rgb(167, 60, 255));
-    margin-top: 360px;
+
+}
+.sp_cci .title_cci h1{
+    text-align: center;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 22.5px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+
+}
+.sp_cci h3{
+    margin-left: 25px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+
+}
+.sp_cci p{
+    text-indent: 10px;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+
 }
 
 
+/*ERASMUS+*/
+.sp_erasmus{
+    position: absolute;
+    width: 500px;
+    height: 518px;
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    margin-top: 410px;
+}
+.sp_erasmus h1{
+    color: black;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.sp_erasmus ul li{
+    font-size: 20px;
+}
+.sp_erasmus .title_erasmus{
+    font-size: 40px;
+    height: 50px;
+    width: 210px;
+    background-color: #b679c2;
+    margin-top: 15px;
+    margin-left: 150px;
+    border-radius: 10px;
+    position: relative;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
 
+}
 
+.sp_erasmus .title_erasmus h1{
+    text-align: center;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 22.5px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    font-size: 30px;
+}
+.sp_erasmus h3{
+    margin-left: 25px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+
+}
+.sp_erasmus p{
+    text-indent: 10px;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+
+}
 /*МОДАЛЬНЕ ВІКНО бл*/
 #modal-cci {
     display: none;
@@ -113,7 +194,12 @@ hr {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
+#modal-cci h3{
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+#modal-cci p{
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
 /* Стили для контента модального окна */
 .modal-content {
     background-color: #fefefe;
@@ -122,25 +208,32 @@ hr {
     border: 1px solid #888;
     width: 80%;
     max-width: 800px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
 }
 
 /* Стили для кнопок "Більше..." */
 #open-modal-cci {
-    background-color: #4CAF50;
+    background-color: #b679c2;
     border: none;
     color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 20px;
+    margin: 0px 370px ;
     cursor: pointer;
     border-radius: 5px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+
 }
 
 #open-modal-cci:hover {
-    background-color: #45a049;
+    background-color: #000000;
+    color: #b679c2;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
 }
 
 /*МОДАЛЬНЕ ВІКНО 2*/
@@ -154,7 +247,16 @@ hr {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
+#modal-erasmus h1{
+    color: black;
+    font-size: 25px;
+}
+#modal-erasmus p{
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+#modal-erasmus ul li{
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
 /* Стили для контента модального окна */
 .modal-content {
     background-color: #fefefe;
@@ -167,19 +269,23 @@ hr {
 
 /* Стили для кнопок "Більше..." */
 #open-modal-erasmus {
-    background-color: #4CAF50;
+    background-color: #b679c2;
     border: none;
     color: white;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 20px;
+    margin: 0px 370px ;
     cursor: pointer;
     border-radius: 5px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
 }
 
 #open-modal-erasmus:hover {
-    background-color: #45a049;
+    background-color: #000000;
+    color: #b679c2;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
 }
