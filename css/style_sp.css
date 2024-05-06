@@ -1,6 +1,7 @@
+
 body {
     background-image: url(../image/news/bg.jpg);
-    height: 5000px;
+    height: 2000px;
     margin: 0px;
     align-self: center;
     background-size: cover;
@@ -79,6 +80,7 @@ hr {
     max-width: 1200px;
     margin: 0 auto;
 }
+/*CCI*/
 .sp_cci{
     position: absolute;
     width: 500px;
@@ -127,6 +129,71 @@ hr {
     text-align: justify;
     filter: drop-shadow(0 0 20px rgb(167, 60, 255));
 
+}
+
+/*МОДАЛЬНЕ ВІКНО бл*/
+#modal-cci {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#modal-cci h3{
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+#modal-cci h1{
+    position: relative;
+}
+.img_cci{
+    position: absolute;
+    border-radius: 10px;
+    height: 180px;
+    width: 150px;
+    top: 260px;
+    left: 600px;
+}
+#modal-cci p{
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+/* Стили для контента модального окна */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+
+/* Стили для кнопок "Більше..." */
+#open-modal-cci {
+    background-color: #b679c2;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 370px ;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+
+}
+
+#open-modal-cci:hover {
+    background-color: #000000;
+    color: #b679c2;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
 }
 
 
@@ -183,59 +250,6 @@ hr {
     filter: drop-shadow(0 0 20px rgb(167, 60, 255));
 
 }
-/*МОДАЛЬНЕ ВІКНО бл*/
-#modal-cci {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-#modal-cci h3{
-    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
-}
-#modal-cci p{
-    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
-}
-/* Стили для контента модального окна */
-.modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    max-width: 800px;
-    border-radius: 10px;
-    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
-}
-
-/* Стили для кнопок "Більше..." */
-#open-modal-cci {
-    background-color: #b679c2;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    margin: 0px 370px ;
-    cursor: pointer;
-    border-radius: 5px;
-    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
-
-}
-
-#open-modal-cci:hover {
-    background-color: #000000;
-    color: #b679c2;
-    font-size: 20px;
-    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
-}
-
 /*МОДАЛЬНЕ ВІКНО 2*/
 #modal-erasmus {
     display: none;
@@ -250,8 +264,44 @@ hr {
 #modal-erasmus h1{
     color: black;
     font-size: 25px;
+    position: relative;
+}
+.img_isma{
+    position: absolute;
+    border-radius: 10px;
+    height: 130px;
+    width: 200px;
+    top: 190px;
+    left: 555px;
+}
+.img_via{
+    position: absolute;
+    border-radius: 10px;
+    height: 130px;
+    width: 250px;
+    top: 550px;
+    left: 530px;
+}
+.img_via1{
+    position: absolute;
+    border-radius: 10px;
+    height: 130px;
+    width: 250px;
+    top: 700px;
+    left: 530px;
+}
+.img_via2{
+    position: absolute;
+    border-radius: 10px;
+    height: 130px;
+    width: 250px;
+    top: 850px;
+    left: 530px;
 }
 #modal-erasmus p{
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+#modal_erasmus h3{
     filter: drop-shadow(0 0 20px rgb(167, 60, 255));
 }
 #modal-erasmus ul li{
@@ -284,6 +334,146 @@ hr {
 }
 
 #open-modal-erasmus:hover {
+    background-color: #000000;
+    color: #b679c2;
+    font-size: 20px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+/*AMERICAN*/
+.sp_amer{
+    position: absolute;
+    width: 500px;
+    height: 410px;
+    border-radius: 15px;
+    background-color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    margin-top: 980px;
+}
+.sp_amer h1{
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.sp_amer .title_amer{
+    font-size: 40px;
+    height: 50px;
+    width: 390px;
+    background-color: #b679c2;
+    margin-top: 15px;
+    margin-left: 60px;
+    border-radius: 10px;
+    position: relative;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+
+}
+.amer_progr h3{
+    font-size: 30px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    text-align: center;
+}
+.amer_progr{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content:center;
+    list-style: none;
+}
+.amer_progr ul img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    margin-left: 220px;
+}
+.amer_progr ul h4{
+    font-size: 20px;
+    text-align: center;
+}
+ul{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    unicode-bidi: isolate;
+}
+.sp_amer .title_amer h1{
+    text-align: center;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 22.5px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    font-size: 30px;
+}
+.sp_amer h3{
+    margin-left: 25px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+
+}
+.sp_amer p{
+    text-indent: 10px;
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-align: justify;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+
+}
+/*МОДАЛЬНЕ ВІКНО 2*/
+#modal-amer{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#modal-amer h1{
+    color: black;
+    font-size: 25px;
+    position: relative;
+}
+
+#modal-amer p{
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+#modal_amer h3{
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+#modal-amer ul li{
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+/* Стили для контента модального окна */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Стили для кнопок "Більше..." */
+#open-modal-amer {
+    background-color: #b679c2;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0px 370px ;
+    cursor: pointer;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+
+#open-modal-amer:hover {
     background-color: #000000;
     color: #b679c2;
     font-size: 20px;
