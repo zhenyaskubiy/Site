@@ -1,6 +1,6 @@
 body{
     background-image: url(../image/news/bg.jpg);
-    height: 2000px;
+    height: 5000px;
     margin: 0px;
     align-self: center;
     background-size: cover;
@@ -71,6 +71,7 @@ hr{
 }
 .history_content{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     
 }
@@ -78,7 +79,7 @@ hr{
     border: solid #ffffff 2px;
     border-radius: 10px;
     margin: 10px;
-    height: 600px;
+    height: 620px;
     width: 600px;
     position: relative;
 }
@@ -99,13 +100,42 @@ hr{
     margin-left: 213px;
     top: 70px;
 }
-.history{
+.images{
     border: solid #ffffff 2px;
     border-radius: 10px;
     margin: 10px;
-    height: 500px;
+    height: 620px;
     width: 600px;
     filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+.history{
+    display: flex;
+    flex-wrap: wrap;
+    height: 3250px;
+    width: 1250px;
+    border: #EAEAEA solid;
+    border-radius: 10px; 
+    margin-top: 50px;
+    margin-left: 0px;
+}
+
+.history h2{
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    font-size: 30px;
+    text-align: center;
+    padding-left: 170px;
+    padding-right: 150px;
+}
+.history p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:0px;
+    text-indent: 15px;
+    color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    font-size: 18px;
 }
 .img_rector{
     height: 300px;
@@ -178,3 +208,42 @@ hr{
     margin-left: 20px;
     text-indent: 15px;
 }
+.imag1,.imag2,.imag3,.imag4,.imag5{
+    position: absolute;
+    border-radius:10px;
+}
+.imag1{
+    height: 150px;
+    top: 15%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+}
+.imag2{
+    height: 150px;
+    width: 220px;
+    top: 42%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+.imag3{
+    height: 250px;
+    width: 250px;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+.imag4{
+    height: 150px;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+.imag5{
+    width: 250px;
+    height: 150px;
+    top: 86%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+}
+
+
