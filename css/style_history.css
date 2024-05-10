@@ -1,0 +1,180 @@
+body{
+    background-image: url(../image/news/bg.jpg);
+    height: 2000px;
+    margin: 0px;
+    align-self: center;
+    background-size: cover;
+    background-size: contain;
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    padding-top: 0px;
+}
+header {
+    height: 80px;
+    width: 100%;
+    background-color: rgba(0,0,0, 0.7);
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-left: auto;
+    border-radius: 20px;
+}
+
+.history_header .navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.button-container button{
+    margin: 0 8px;
+}
+.btn_nav {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    transition: opacity 0.6s ease;
+    font-weight: bold;
+}
+
+.history_header button:hover {
+    box-shadow: 1px 1px 20px rgb(117, 42, 179);
+    transform: scale(1.05);
+    color: rgb(117, 42, 179);
+}
+
+.history_header .button-container:hover > :not(:hover) {
+    opacity: 0.4;
+}
+h1{
+    margin: 0%;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    font-weight: 600;
+    color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    font-size: 40px;
+    text-align: center;
+}
+hr{
+    width: 550px;
+}
+.history_content{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.rector{
+    border: solid #ffffff 2px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 600px;
+    width: 600px;
+    position: relative;
+}
+.rector h2{
+    position: absolute;
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    margin-top: 0;
+    margin-left: 250px;
+    text-align: center;
+    top: 20px;
+}
+.rector ul li{
+    position: absolute;
+    color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(73, 60, 255));
+    margin-left: 213px;
+    top: 70px;
+}
+.history{
+    border: solid #ffffff 2px;
+    border-radius: 10px;
+    margin: 10px;
+    height: 500px;
+    width: 600px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+.img_rector{
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px;
+}
+.facebook{
+    position: absolute;
+    left: 20px;
+    top: 338px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+.facebook:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 10px rgb(73, 60, 255));
+}
+.instagram{
+    position: absolute;
+    left: 20px;
+    top: 368px;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+.instagram:hover{
+    transform: scale(1.2);
+    filter: drop-shadow(0 0 10px rgb(255, 60, 213));
+}
+#fcb{
+    position: absolute;
+    top: 320px;
+    left: 50px;
+    filter: drop-shadow(0 0 5px rgb(89, 60, 255));
+    color: #EAEAEA;
+}
+#inst{
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    filter: drop-shadow(0 0 5px rgb(255, 60, 174));
+    color: #EAEAEA;
+}
+#hrosvita{
+    position: absolute;
+    top: 90px;
+    left: 370px;
+    color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+}
+#liosvita{
+    position: absolute;
+    top: 160px;
+    margin-left: 213px;
+}
+#liosvita2{
+    position: absolute;
+    top: 210px;
+}
+#liosvita3{
+    position: absolute;
+    top: 260px;
+    margin-right: 10px;
+}
+#kuklin{
+    position: absolute;
+    top: 390px;
+    font-size: 19px;
+    color: #EAEAEA;
+    filter: drop-shadow(0 0 20px rgb(167, 60, 255));
+    margin-right: 20px;
+    margin-left: 20px;
+    text-indent: 15px;
+}

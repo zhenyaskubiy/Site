@@ -132,6 +132,7 @@ hr {
 }
 
 /*МОДАЛЬНЕ ВІКНО бл*/
+
 #modal-cci {
     display: none;
     position: fixed;
@@ -145,17 +146,17 @@ hr {
 
 #modal-cci h3{
     filter: drop-shadow(0 0 20px rgb(167, 60, 255));
-}
-#modal-cci h1{
     position: relative;
 }
+
 .img_cci{
-    position: absolute;
-    border-radius: 10px;
-    height: 180px;
-    width: 150px;
-    top: 260px;
-    left: 600px;
+  position: absolute;
+  top: 75%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  height: 180px;
+  width: 150px;
 }
 #modal-cci p{
     filter: drop-shadow(0 0 20px rgb(167, 60, 255));
@@ -186,7 +187,6 @@ hr {
     cursor: pointer;
     border-radius: 5px;
     font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
-
 }
 
 #open-modal-cci:hover {
@@ -194,6 +194,8 @@ hr {
     color: #b679c2;
     font-size: 20px;
     font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    transform: translateX(-35px);
+    width: 30%;
 }
 
 
@@ -239,7 +241,6 @@ hr {
 .sp_erasmus h3{
     margin-left: 25px;
     filter: drop-shadow(0 0 20px rgb(167, 60, 255));
-
 }
 .sp_erasmus p{
     text-indent: 10px;
@@ -266,37 +267,34 @@ hr {
     font-size: 25px;
     position: relative;
 }
-.img_isma{
+.img_isma {
     position: absolute;
+    top: 18%;
+    left: 80%;
+    transform: translate(-50%, -50%);
     border-radius: 10px;
     height: 130px;
     width: 200px;
-    top: 190px;
-    left: 555px;
 }
-.img_via{
+  
+.img_via,
+.img_via1,
+.img_via2 {
     position: absolute;
+    top: 50%;
+    left: 80%;
+    transform: translate(-50%, -50%);
     border-radius: 10px;
     height: 130px;
     width: 250px;
-    top: 550px;
-    left: 530px;
 }
-.img_via1{
-    position: absolute;
-    border-radius: 10px;
-    height: 130px;
-    width: 250px;
-    top: 700px;
-    left: 530px;
+  
+.img_via1 {
+    top: 60%;
 }
-.img_via2{
-    position: absolute;
-    border-radius: 10px;
-    height: 130px;
-    width: 250px;
-    top: 850px;
-    left: 530px;
+  
+.img_via2 {
+    top: 70%;
 }
 #modal-erasmus p{
     filter: drop-shadow(0 0 20px rgb(167, 60, 255));
@@ -338,6 +336,8 @@ hr {
     color: #b679c2;
     font-size: 20px;
     font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    transform: translateX(-35px);
+    width: 30%;
 }
 
 /*AMERICAN*/
@@ -478,4 +478,6 @@ ul{
     color: #b679c2;
     font-size: 20px;
     font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    transform: translateX(-35px);
+    width: 30%;
 }
