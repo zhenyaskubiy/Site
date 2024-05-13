@@ -116,57 +116,57 @@ h2{
     height: 140px;
     position: absolute;
     margin-left: 350px;
-    top: -6300px;
+    top: 100px;
 }
-/*ПОДІЯ ПЕРША*/
-#event1 img{
+
+#event1 img, #event2 img, #event3 img, #event4 img, #event5 img, #event6 img{
     height: 140px;
     width: 210px;
     border-radius: 10px;
 }
 
-/*ПОДІЯ ПЕРША*/
+
 #event2{
     position: absolute;
     margin-left: 350px;
-    top: -6100px;
+    top: 300px;
 }
 
 
 #event3{
     position: absolute;
     margin-left: 350px;
-    top: -5900px;
+    top: 500px;
 }
 
 #event4{
     position: absolute;
     margin-left: 350px;
-    top: -5700px;
+    top: 700px;
 }
 
 #event5{
     position: absolute;
     margin-left: 350px;
-    top: -5500px;
+    top: 900px;
 }
 
 #event6{
     position: absolute;
     margin-left: 350px;
-    top: -5300px;
+    top: 1100px;
 }
 
 #event7{
     position: absolute;
     margin-left: 350px;
-    top: -5100px;
+    top: 1300px;
 }
 
 #event8{
     position: absolute;
     margin-left: 350px;
-    top: -4900px;
+    top: 1500px;
 }
 .box:nth-of-type(even) {
 	transform: translateX(-200%);
@@ -202,31 +202,136 @@ h2{
     margin-top: 15px;
     margin-left: 15px;
 }
-#art-ter button{
-    border-radius: 10px ;
-    border: solid rgb(117, 42, 179) 2px;
-    box-shadow: 0 0 2px 0.5px rgb(117, 42, 179), 0 0 2px 0.5px rgb(117, 42, 179);
-    filter: drop-shadow(0 0 10px rgb(117, 42, 179));
-	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-    margin-left: 306px;
+
+#den_pamyati h3{
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 150px; 
+    margin-top: -120px;
+    filter: drop-shadow(0 0 10px rgb(247, 237, 255));
+
 }
-/*.more span{
-    color: rgb(0, 0, 0);
-    font-weight: 700;
-    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+#den_pamyati p{
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    margin-left: 13px;
+    margin-top: 66px;
+    text-indent: 15px;
+    filter: drop-shadow(0 0 20px rgb(246, 235, 255));
+    font-size: 20px;
 }
-.more{
-    background-color: rgb(255, 255, 255);
-    width: 80px;
+#den_pamyati img{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
-.more:hover{
-    transform: scale(1.05);
+#vitaemo h3{
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 150px; 
+    margin-top: -120px;
+    filter: drop-shadow(0 0 10px rgb(247, 237, 255));
+
 }
-.more:hover span{
-    filter: drop-shadow(0 0 5px rgb(117, 42, 179));
-    color: rgb(117, 42, 179);
+#vitaemo p{
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    margin-left: 13px;
+    margin-top: 66px;
+    text-indent: 15px;
+    filter: drop-shadow(0 0 20px rgb(246, 235, 255));
+    font-size: 20px;
 }
-*/
+#vitaemo img{
+    height: 120px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#blogers h3{
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 180px; 
+    margin-top: -120px;
+    filter: drop-shadow(0 0 10px rgb(247, 237, 255));
+
+}
+#blogers p{
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    margin-left: 13px;
+    margin-top: 40px;
+    text-indent: 15px;
+    filter: drop-shadow(0 0 20px rgb(246, 235, 255));
+    font-size: 18px;
+}
+#blogers img{
+    height: 120px;
+    width: 150px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#top_blog h3{
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 200px; 
+    margin-top: -120px;
+    filter: drop-shadow(0 0 10px rgb(247, 237, 255));
+
+}
+#top_blog p{
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 66px;
+    text-indent: 15px;
+    filter: drop-shadow(0 0 20px rgb(246, 235, 255));
+    font-size: 18px;
+}
+#top_blog img{
+    height: 120px;
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#stud h3{
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 200px; 
+    margin-top: -120px;
+    filter: drop-shadow(0 0 10px rgb(247, 237, 255));
+}
+#stud p{
+    font-family: 'Times New Roman', Times, serif;
+    overflow: hidden;
+    margin-left: 13px;
+    margin-top: 40px;
+    text-indent: 15px;
+    filter: drop-shadow(0 0 20px rgb(246, 235, 255));
+    font-size: 16px;
+}
+#stud img{
+    height: 120px;
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
 .top{
     display: grid;
     place-items: center;
